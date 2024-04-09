@@ -2,26 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply bg-[#333] flex justify-center  min-h-screen overflow-y-scroll
+}
+.char-bar{
+  @apply h-[100%] flex flex-col items-center
+}
+.chart-bar__inner {
+  @apply h-[100%] w-[100%] border border-[#313131] rounded-sm bg-[#c3b4f3]
+  overflow-hidden flex flex-col justify-end
+}
+.chart-bar__fill{
+  @apply bg-[#4826b9] w-[100%] transition-all ease-out
+}
+.chart-bar__label{
+  @apply font-extrabold text-[0.5rem] text-center;
+}
+.chart{
+  @apply p-[1rem] rounded-sm bg-[#f8dfff] text-center flex justify-around h-[10rem]
 }
