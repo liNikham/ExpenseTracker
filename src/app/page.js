@@ -26,6 +26,7 @@ const Index = () => {
       return [expense, ...prevExpenses];
     });
   };
+	
 
   return (
     <div className="w-[50%]">
@@ -36,5 +37,6 @@ const Index = () => {
     </div>
   );
 };
+
 
 export default Index;
