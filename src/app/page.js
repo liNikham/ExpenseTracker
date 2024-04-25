@@ -28,6 +28,8 @@ const Index = () => {
   };
 	
 
+	
+
   return (
     <div className="w-[50%]">
       <NewExpense onAddExpense={addExpenseHandler} />
