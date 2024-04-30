@@ -14,8 +14,35 @@ const initial_expenses = [
     id: 'e2',
     title: 'Car Insurance',
     amount: 295.34,
-    date: new Date(2023, 7, 16),
+    date: new Date(2020, 7, 16),
+  },
+  {
+    id: 'e3',
+    title: 'Light Bill',
+    amount: 295.34,
+    date: new Date(2021, 7, 16),
+  },
+{
+    id: 'e4',
+    title: 'Water Bill',
+    amount: 295.34,
+    date: new Date(2019, 7, 16),
+  },
+{
+    id: 'e5',
+    title: 'Education',
+    amount: 295.34,
+    date: new Date(2019, 7, 16),
+  },
+{
+    id: 'e6',
+    title: 'Car Insurance',
+    amount: 295.34,
+    date: new Date(2020, 7, 16),
   }
+
+
+
 ];
 
 const Index = () => {

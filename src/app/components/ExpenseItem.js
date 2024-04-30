@@ -7,7 +7,7 @@ const ExpenseItem=(props )=>{
      </div>
      <div className="flex justify-between items-center flex-grow">
          <h2 className="text-white text-2xl">{props.title}</h2>
-         <div className="bg-purple-950 text-white text-xl px-5 py-2 border border-white rounded-2xl">${props.amount}</div>
+         <div className="bg-purple-950 text-white text-xl px-5 py-2 border border-white rounded-2xl">${props.amount} ₹</div>
      </div>
  </div>
     

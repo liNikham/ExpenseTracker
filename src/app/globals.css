@@ -5,7 +5,7 @@
 
 
 body {
-  @apply bg-[#333] flex justify-center  min-h-screen overflow-y-scroll
+  @apply bg-[#fff] flex justify-center  min-h-screen overflow-y-scroll
 }
 .char-bar{
   @apply h-[100%] flex flex-col items-center
